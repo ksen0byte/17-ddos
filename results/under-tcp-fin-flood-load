@@ -1,0 +1,42 @@
+This is ApacheBench, Version 2.3 <$Revision: 1826891 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking nginx-defender (be patient)
+
+
+Server Software:        nginx/1.25.3
+Server Hostname:        nginx-defender
+Server Port:            80
+
+Document Path:          /
+Document Length:        235959 bytes
+
+Concurrency Level:      100
+Time taken for tests:   1.522 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      2361970000 bytes
+HTML transferred:       2359590000 bytes
+Requests per second:    6570.59 [#/sec] (mean)
+Time per request:       15.219 [ms] (mean)
+Time per request:       0.152 [ms] (mean, across all concurrent requests)
+Transfer rate:          1515579.08 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.4      0       4
+Processing:     3   15   3.7     15      32
+Waiting:        0    8   5.7      8      25
+Total:          4   15   3.7     15      32
+
+Percentage of the requests served within a certain time (ms)
+  50%     15
+  66%     16
+  75%     17
+  80%     18
+  90%     19
+  95%     21
+  98%     24
+  99%     28
+ 100%     32 (longest request)
